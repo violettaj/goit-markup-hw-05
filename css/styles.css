@@ -179,7 +179,11 @@ padding-bottom: 280px;
 background-image: url(../images/background.jpg), url(../images/overlay.png);
 background-repeat: no-repeat;
 background-position: 50% 50%;
-background-size: 1600px;
+max-width: 1600px;
+background-size: cover;
+width: 100%;
+margin: 0 auto;
+height: 600px;
 }
 
 .contact-icons {
@@ -268,10 +272,11 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
-figure> .team-images{
+ .team-images{
     margin-bottom: 30px;
-    object-fit: cover;
-    
+    object-fit:cover;
+   
+   
     
 }
 
@@ -686,6 +691,8 @@ justify-content: flex-end;
 top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding-top: 8px;
+  padding-right: 8px;
 }
 
 .close-btn {
@@ -699,4 +706,5 @@ display:flex;
 justify-content: center;
 align-items: center;
 cursor:pointer;
+
 }
